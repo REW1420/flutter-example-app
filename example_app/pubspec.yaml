@@ -1,0 +1,26 @@
+name: example_app
+
+description: A new Flutter project.
+
+environment:
+  sdk: '^2.12.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/mayita.jpg
+  
+  fonts:
+      - family: Nunito
+        fonts:
+          - asset: assets/Nunito.ttf
